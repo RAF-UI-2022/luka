@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE7FC37B-47FA-FB00-5F71-C639BEFED289" name="Paket">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 14:23:16 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paket_id" id="326D9CCC-AF29-108B-C6C6-EFEBBDFA5F47">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 14:23:47 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="6F161CE8-BFA4-A6DD-B529-1A5A096995C3">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:01:10 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BF714A1-277A-5EBE-46E0-24CA42C08B67" name="Paket_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 14:31:56 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326D9CCC-AF29-108B-C6C6-EFEBBDFA5F47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

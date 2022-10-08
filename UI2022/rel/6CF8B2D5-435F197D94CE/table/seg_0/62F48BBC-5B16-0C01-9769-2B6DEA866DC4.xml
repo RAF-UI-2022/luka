@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F48BBC-5B16-0C01-9769-2B6DEA866DC4" name="Usluga">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 15:35:43 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_usluge" id="0151C448-1301-8E16-FFE4-4C4AA73C5B5E">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 15:36:10 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66EBE739-D1B0-0C34-BBBF-EA3C76F9CFFC" name="Usluga_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 15:36:10 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0151C448-1301-8E16-FFE4-4C4AA73C5B5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

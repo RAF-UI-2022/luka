@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F07F57A7-7292-8E26-FC39-C6D5016AD88C" name="Sadrzaj_paketa">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:00:31 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paket" id="D5D913C6-A406-C45C-0E3A-9776B4624415">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:29:18 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24AAAEDE-7693-71C8-81AA-524128B99FF2" referredColumn="326D9CCC-AF29-108B-C6C6-EFEBBDFA5F47"/>
+</associations>
+</Column>
+<Column name="tip_usluge" id="87652A17-F686-99ED-CD12-B2B870112DC3">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:02:19 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90A4B93A-10F7-269A-10C9-539C584B432B" referredColumn="0151C448-1301-8E16-FFE4-4C4AA73C5B5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6B2A82C-4A17-97C8-910B-B8FE687C0D06" name="Sadrzaj_paketa_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:11:15 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5D913C6-A406-C45C-0E3A-9776B4624415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BE6BDE2-ADEA-74BB-C7F8-B52B240E98AD" name="usluga_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:02:19 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87652A17-F686-99ED-CD12-B2B870112DC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34B6BC45-D165-8992-2778-F767BC776FB9" name="paket_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:29:18 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5D913C6-A406-C45C-0E3A-9776B4624415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
