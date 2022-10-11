@@ -22,18 +22,17 @@
 <colAssociation fkAssociation="24AAAEDE-7693-71C8-81AA-524128B99FF2" referredColumn="326D9CCC-AF29-108B-C6C6-EFEBBDFA5F47"/>
 </associations>
 </Column>
-<Column name="tip_usluge" id="87652A17-F686-99ED-CD12-B2B870112DC3">
+<Column name="usluga" id="8541E496-3EF5-F52A-7B79-9C16BE872B72">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 16:02:19 UTC</createdTime>
+<createdTime>2022-10-11 09:51:22 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="90A4B93A-10F7-269A-10C9-539C584B432B" referredColumn="0151C448-1301-8E16-FFE4-4C4AA73C5B5E"/>
+<colAssociation fkAssociation="90A4B93A-10F7-269A-10C9-539C584B432B" referredColumn="6609F439-7E81-B567-8606-885993E86DE3"/>
 </associations>
 </Column>
 </columns>
@@ -56,7 +55,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="87652A17-F686-99ED-CD12-B2B870112DC3"/>
+<colUsage columnID="8541E496-3EF5-F52A-7B79-9C16BE872B72"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="34B6BC45-D165-8992-2778-F767BC776FB9" name="paket_FK">

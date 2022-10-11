@@ -40,6 +40,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ugovor_id" id="5E751F24-0ED5-1429-B764-3C07E001274C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45ACE239-41F0-8592-5575-B8E59CFC6246" referredColumn="60860B27-B2BF-069C-76DC-68BDBC413D07"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="234CBD40-BA7B-E3A7-233E-1B00B0581F40" name="Korisnik_PK">
@@ -51,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99988669-F684-3585-5509-5308209E624F" name="ugovor_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E751F24-0ED5-1429-B764-3C07E001274C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

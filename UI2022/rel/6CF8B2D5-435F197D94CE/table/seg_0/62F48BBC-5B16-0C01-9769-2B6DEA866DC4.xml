@@ -8,15 +8,29 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_usluge" id="0151C448-1301-8E16-FFE4-4C4AA73C5B5E">
+<Column name="usluga_id" id="6609F439-7E81-B567-8606-885993E86DE3">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 15:36:10 UTC</createdTime>
+<createdTime>2022-10-11 09:51:19 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_usluge" id="38E03FEB-1F29-7A87-4F2F-21279971BDDD">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-11 09:49:08 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="682E60FF-2267-F9CE-A4E7-4014D384844A" referredColumn="54B108A1-A3BE-0F2A-72E5-2131614D30D8"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -28,7 +42,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0151C448-1301-8E16-FFE4-4C4AA73C5B5E"/>
+<colUsage columnID="6609F439-7E81-B567-8606-885993E86DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E0E119D-2264-AEA7-3FB5-2CAEA5552E16" name="Tip_usluge_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-11 09:49:08 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E03FEB-1F29-7A87-4F2F-21279971BDDD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
