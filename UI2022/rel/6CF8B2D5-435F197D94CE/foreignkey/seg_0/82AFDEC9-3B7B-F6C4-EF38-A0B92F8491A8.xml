@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82AFDEC9-3B7B-F6C4-EF38-A0B92F8491A8" containerWithKeyObject="DB97EC2F-7970-1683-49AA-4E3EB775B4F5" localFKIndex="4C19C759-C811-90E0-62FD-D41405C42ED2" name="popust_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:22:49 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<referredTableLongName>Popust</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E319A86-0C69-16D7-969E-95805E39FDED</referredTableID>
+<keyObject>BD2AC85F-E268-5B81-DC70-EDC493C1117A</keyObject>
+<referredKeyID>BD2AC85F-E268-5B81-DC70-EDC493C1117A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>popust_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

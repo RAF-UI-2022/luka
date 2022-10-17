@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1241DEA1-517C-959A-D97D-21528A739FA4" containerWithKeyObject="F07F57A7-7292-8E26-FC39-C6D5016AD88C" localFKIndex="2FA87890-E389-A8D6-12D7-0A138E1448CE" name="fiksni_telefon_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:35:15 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<referredTableLongName>Fiksni_telefon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB4D15A4-5C2A-B941-D64F-73F1FDFFFFA4</referredTableID>
+<keyObject>EF54163F-8F42-7929-425E-DA0FB7B8422D</keyObject>
+<referredKeyID>EF54163F-8F42-7929-425E-DA0FB7B8422D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>telefon_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

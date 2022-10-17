@@ -1,16 +1,24 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD47F47D-6550-3563-A771-BE40D13D9F05" name="Tip_usluge">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F629F314-0FCC-5B83-8C6D-9638CC44FF9A" name="Uredjaj">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:48:02 UTC</createdTime>
+<createdTime>2022-10-17 15:26:06 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_14</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_usluge_id" id="54B108A1-A3BE-0F2A-72E5-2131614D30D8">
+<Column name="uredjaj_id" id="664F0084-D920-3D52-8E66-76B78A00917C">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:48:37 UTC</createdTime>
+<createdTime>2022-10-17 15:26:34 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_uredjaja" id="44B12F32-6986-0952-E3CA-E84A8A4E4EB0">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:34:43 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,15 +28,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1EF210A5-214E-44FA-31CF-38806CAE7DE0" name="Tip_usluge_PK">
+<ind_PK_UK id="D6C3E843-41FE-7D8D-86D8-94D789E90957" name="Uredjaj_PK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:48:37 UTC</createdTime>
+<createdTime>2022-10-17 15:26:40 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="54B108A1-A3BE-0F2A-72E5-2131614D30D8"/>
+<colUsage columnID="664F0084-D920-3D52-8E66-76B78A00917C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -8,7 +8,7 @@
 <referredTableID>31AB497A-4951-6F2A-1A76-D17E4483CBDB</referredTableID>
 <keyObject>3BCCDB6F-3ED1-A409-C7EA-691F385E100A</keyObject>
 <referredKeyID>3BCCDB6F-3ED1-A409-C7EA-691F385E100A</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ugovor_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

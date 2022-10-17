@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53651035-6A51-7C70-9D39-00EBF6A26E4A" name="Korisnik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF5F8EF1-2A05-B94F-608C-CC69929FAA19" name="Internet">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:00 UTC</createdTime>
+<createdTime>2022-10-16 15:28:01 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_9</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="korisnik_id" id="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC">
+<Column name="internet_id" id="A19873B2-8EC5-F5EC-5C1D-7BB34686C3E0">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:44 UTC</createdTime>
+<createdTime>2022-10-16 15:28:43 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="B68D2E88-A028-34FA-7A4E-82D702443D17">
+<Column name="download" id="D56F67E9-CD27-911D-3509-7B7D55E88EA9">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:21:29 UTC</createdTime>
+<createdTime>2022-10-16 15:29:06 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="upload" id="FB6F9F67-B017-86B8-BB92-31409CDEDE8E">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:29:24 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_prenosa" id="1DCA0833-29F2-9136-5383-AA98618BB6DD">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:29:50 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,52 +48,40 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="prezime" id="89918C7B-E702-EBF2-F280-91B1922CAB21">
+<Column name="uredjaj" id="B86D8466-3DBE-7F25-749E-8FE501210931">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:21:39 UTC</createdTime>
-<ownerDesignName>UI2022</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ugovor_id" id="5E751F24-0ED5-1429-B764-3C07E001274C">
-<createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<createdTime>2022-10-17 15:31:10 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45ACE239-41F0-8592-5575-B8E59CFC6246" referredColumn="60860B27-B2BF-069C-76DC-68BDBC413D07"/>
+<colAssociation fkAssociation="875CCBCE-CED0-E38E-7CE6-B15700F9C77F" referredColumn="664F0084-D920-3D52-8E66-76B78A00917C"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="234CBD40-BA7B-E3A7-233E-1B00B0581F40" name="Korisnik_PK">
+<ind_PK_UK id="AEE2AEFD-F4EC-30D1-6D66-FB6D15A8304C" name="Internet_PK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:44 UTC</createdTime>
+<createdTime>2022-10-16 15:28:43 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC"/>
+<colUsage columnID="A19873B2-8EC5-F5EC-5C1D-7BB34686C3E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="99988669-F684-3585-5509-5308209E624F" name="ugovor_FK">
+<ind_PK_UK id="60CBCCCE-83D2-A6A2-7E84-CB30D9435152" name="uredjaj_FKv3">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<createdTime>2022-10-17 15:31:10 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E751F24-0ED5-1429-B764-3C07E001274C"/>
+<colUsage columnID="B86D8466-3DBE-7F25-749E-8FE501210931"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

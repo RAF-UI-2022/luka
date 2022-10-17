@@ -46,13 +46,23 @@
 <colAssociation fkAssociation="8FC9FDDA-668B-8139-8728-7F30D5A53943" referredColumn="CAA9B7AF-659C-FB86-7B53-CCCBD079123C"/>
 </associations>
 </Column>
-<Column name="trajanje" id="DC7A0108-4C82-3EA9-AA7D-2D5F2AE8FD2E">
+<Column name="datum_sklapanja" id="A334668C-1E27-FFE2-8B45-BD82BF4309F5">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 15:40:48 UTC</createdTime>
+<createdTime>2022-10-17 15:24:27 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_istekla" id="0AA9DBC4-08F9-0B4D-6895-F426D6EEE5BC">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:24:27 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

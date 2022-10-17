@@ -32,15 +32,19 @@
 <colAssociation fkAssociation="D37BA56C-6EF0-31A4-CCC8-EB340868BE32" referredColumn="D5D913C6-A406-C45C-0E3A-9776B4624415"/>
 </associations>
 </Column>
-<Column name="cena" id="ABA4BDF5-263F-46B4-8A33-8A3714F438DD">
+<Column name="cena" id="7BE7BF2E-D3D2-A0AC-2FB4-C00A79DC81AB">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 15:20:07 UTC</createdTime>
+<createdTime>2022-10-17 15:20:02 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D988CB91-09CA-48D3-4D78-E6714D9CE4CF" referredColumn="7E62134B-B938-1E95-0B62-13F5352AE0F6"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -63,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="79C21632-6EC3-D289-8646-6C33CCFF248F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE3F179-A0B5-DFA5-B5BB-87DC983CCD26" name="cena_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:20:02 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE7BF2E-D3D2-A0AC-2FB4-C00A79DC81AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

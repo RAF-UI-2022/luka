@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB4D15A4-5C2A-B941-D64F-73F1FDFFFFA4" name="Fiksni_telefon">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:34:17 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefon_id" id="56753847-EE74-4D99-49BD-BD137820134D">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:34:44 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uredjaj" id="E8FB222B-352C-A1DE-F485-8A341DCCDFBC">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:29:27 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A6A409E-E69A-1C4C-D584-4717709FD1B9" referredColumn="664F0084-D920-3D52-8E66-76B78A00917C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF54163F-8F42-7929-425E-DA0FB7B8422D" name="Fiksni_telefon_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:34:44 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56753847-EE74-4D99-49BD-BD137820134D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12685544-1BAC-0C53-1215-499273F554C6" name="uredjaj_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-17 15:29:27 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8FB222B-352C-A1DE-F485-8A341DCCDFBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

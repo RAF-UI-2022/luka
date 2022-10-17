@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53651035-6A51-7C70-9D39-00EBF6A26E4A" name="Korisnik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4284DC02-81D7-D245-65A1-7FCCFF58E978" name="Izborni_kanal">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:00 UTC</createdTime>
+<createdTime>2022-10-16 15:49:12 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="korisnik_id" id="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC">
+<Column name="izborni_kanal_id" id="C665E834-332B-B4EA-B2D3-0A7DB42B6EE8">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:44 UTC</createdTime>
+<createdTime>2022-10-16 15:49:47 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="B68D2E88-A028-34FA-7A4E-82D702443D17">
+<Column name="naziv" id="CD0751C0-DB3F-5AE7-0827-C87FE3A87965">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:21:29 UTC</createdTime>
+<createdTime>2022-10-16 15:49:55 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,19 +28,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="prezime" id="89918C7B-E702-EBF2-F280-91B1922CAB21">
+<Column name="kablovksa_id" id="FE88C03D-08D4-C1F5-D26B-91A570F138A3">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:21:39 UTC</createdTime>
-<ownerDesignName>UI2022</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ugovor_id" id="5E751F24-0ED5-1429-B764-3C07E001274C">
-<createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<createdTime>2022-10-16 15:50:14 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,30 +40,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45ACE239-41F0-8592-5575-B8E59CFC6246" referredColumn="60860B27-B2BF-069C-76DC-68BDBC413D07"/>
+<colAssociation fkAssociation="65151378-09C4-ADF1-37BC-6806C3DCC0AE" referredColumn="8FA74B04-C5EB-8F5B-68EC-4C2A9228AC08"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="234CBD40-BA7B-E3A7-233E-1B00B0581F40" name="Korisnik_PK">
+<ind_PK_UK id="23273021-B82C-5282-DC71-B08E9E050039" name="Izborni_kanal_PK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-08 14:20:44 UTC</createdTime>
+<createdTime>2022-10-17 15:35:07 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC"/>
+<colUsage columnID="C665E834-332B-B4EA-B2D3-0A7DB42B6EE8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="99988669-F684-3585-5509-5308209E624F" name="ugovor_FK">
+<ind_PK_UK id="819161FB-A8C0-116A-A200-C0C27A8CDFDE" name="kablovska_FKv1">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-11 09:57:05 UTC</createdTime>
+<createdTime>2022-10-16 15:50:14 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E751F24-0ED5-1429-B764-3C07E001274C"/>
+<colUsage columnID="FE88C03D-08D4-C1F5-D26B-91A570F138A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
