@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Popust_popust_id" id="31863A04-5D7F-0DAC-7BF8-B8290A887FBC">
+<Column name="popust" id="31863A04-5D7F-0DAC-7BF8-B8290A887FBC">
 <createdBy>LUKA</createdBy>
 <createdTime>2022-10-17 15:22:49 UTC</createdTime>
 <ownerDesignName>UI2022</ownerDesignName>

@@ -18,9 +18,19 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="435" y="248" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="26179C3E-F5C5-9B19-10CE-FF45F737DB36" otype="Note" vid="4449CC2E-68BD-5CD1-D561-1FEFF9F7A945">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="49" y="445" width="95" height="40"/>
+<comment>Reklamacije, prigovori</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="31AB497A-4951-6F2A-1A76-D17E4483CBDB" otype="Table" vid="B7BCE094-124B-99B3-E841-D3C01AE088A4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="321" y="22" width="170" height="126"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="3B6D764F-2018-162E-2E13-C6ECC4CF6D0C" otype="Note" vid="3F56A39A-A37B-7424-7871-2DEC462AAA9B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="177" y="510" width="95" height="60"/>
+<comment>Mobilne mreze, prodaja mobilnih telefona...</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3E319A86-0C69-16D7-969E-95805E39FDED" otype="Table" vid="E9209D71-C63C-C736-5E4E-1BEA8713F7BB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -96,9 +106,10 @@
 <backgroundColor>-13369549</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BE7FC37B-47FA-FB00-5F71-C639BEFED289" otype="Table" vid="8A3771CB-294A-0743-8D20-A9E1650D3707">
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="AE746922-7219-E295-99D5-5BB11B5F95A1" otype="Note" vid="D3B0274B-5A62-0F12-5D56-8AA0E60D7134">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="743" y="456" width="170" height="110"/>
+<bounds x="113" y="111" width="116" height="63"/>
+<comment>Formiranje racuna svakog meseca, uplata, nacin uplate, uplatno mesto</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DB97EC2F-7970-1683-49AA-4E3EB775B4F5" otype="Table" vid="156B43A7-AA78-EB69-2001-55109E5ACE54">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -163,6 +174,11 @@
 </FontObject>
 </fonts>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E20CD4E7-EC08-5994-A616-6AA2E8F9EB41" otype="Note" vid="6BCCBD36-39C0-D2E4-6590-C168BC7937E5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="585" y="119" width="95" height="40"/>
+<comment>Promocije, nagradne igre</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="EF5F8EF1-2A05-B94F-608C-CC69929FAA19" otype="Table" vid="A899A839-EEC0-1CB5-68E2-CE3EB3CE66BA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="749" y="54" width="170" height="128"/>
@@ -183,8 +199,8 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="F9803516-E79B-ED2E-5CC9-6C70B38CAE4A" otype="Note" vid="BC1BC6B5-6FE4-59B9-8496-2029A82B77D4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1108" y="452" width="95" height="40"/>
-<comment>Kako razresiti kanale?</comment>
+<bounds x="1230" y="335" width="95" height="88"/>
+<comment>Kako razresiti kanale? Zelim da postoji skup obaveznih i skup izbornih(sportski, filmski, o prirodi...)</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FB4D15A4-5C2A-B941-D64F-73F1FDFFFFA4" otype="Table" vid="68CCC64D-0FA9-7B6A-D6BE-BBE5FFE3F9FA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -260,15 +276,6 @@
 <points>
 <point x="982" y="235"/>
 <point x="920" y="235"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="24AAAEDE-7693-71C8-81AA-524128B99FF2" otype="FKIndexAssociation" vid_source="8A3771CB-294A-0743-8D20-A9E1650D3707" vid_target="B561ECEE-D09B-9AFB-D1A3-EB101653BC6A">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="831" y="456"/>
-<point x="831" y="392"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="45ACE239-41F0-8592-5575-B8E59CFC6246" otype="FKIndexAssociation" vid_source="B7BCE094-124B-99B3-E841-D3C01AE088A4" vid_target="B38EAC5E-233A-8B7C-D634-CCECD399256B">
