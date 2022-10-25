@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6C8F007-E1A9-B731-B1E3-7DE2CCF4486C" name="Paket_kanala">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:04:23 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paket_kanala_id" id="3E73231D-EDD1-DA4D-51E0-763905ED795B">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:09:29 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kablovksa" id="FE54E530-45B4-4D4F-C314-CA96C59F1418">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:07:19 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B72976CA-72EB-5B07-AFD5-22B681474F18" referredColumn="8FA74B04-C5EB-8F5B-68EC-4C2A9228AC08"/>
+</associations>
+</Column>
+<Column name="kanal" id="DC89A2DA-C979-FFDD-ACF1-C78E66A8146A">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:08:16 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F79F3C93-B8DD-D65D-1394-FE0104B3E452" referredColumn="F07C6B66-261F-09E4-A62F-6D5D5A158F0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFFE820C-638E-FE8C-71E5-29541713D1EF" name="Paket_kanala_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:07:54 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E73231D-EDD1-DA4D-51E0-763905ED795B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="595F879E-03A1-FC6A-09F3-E6D545728196" name="kablovska_FKv2">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:07:19 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE54E530-45B4-4D4F-C314-CA96C59F1418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA88836A-1281-D08E-D901-092BF6C5BD7A" name="kanal_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:08:16 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC89A2DA-C979-FFDD-ACF1-C78E66A8146A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

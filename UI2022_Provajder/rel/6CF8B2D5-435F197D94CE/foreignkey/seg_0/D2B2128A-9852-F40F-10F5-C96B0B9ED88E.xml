@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2B2128A-9852-F40F-10F5-C96B0B9ED88E" containerWithKeyObject="DACF540C-3CB1-F244-2DB1-B51CE283DEF8" localFKIndex="B8F3C976-ADA1-DC04-C924-211F481A098A" name="uplata_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 15:16:03 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<referredTableLongName>Uplata</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65796F98-23A0-72D6-7D32-0DD0509F04EA</referredTableID>
+<keyObject>338771FC-D4AC-F970-D748-C39544DC3090</keyObject>
+<referredKeyID>338771FC-D4AC-F970-D748-C39544DC3090</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>uplata_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
