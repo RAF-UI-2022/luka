@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E319A86-0C69-16D7-969E-95805E39FDED" name="Popust">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6C8F007-E1A9-B731-B1E3-7DE2CCF4486C" name="Paket_kanala">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:20:41 UTC</createdTime>
+<createdTime>2022-10-25 14:04:23 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
-<ordsAlias>table_12</ordsAlias>
+<ordsAlias>table_13</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="popust_id" id="02E1F943-C68E-2EEA-06E6-D0CA884013E7">
+<Column name="paket_kanala_id" id="3E73231D-EDD1-DA4D-51E0-763905ED795B">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:21:10 UTC</createdTime>
+<createdTime>2022-10-25 14:09:29 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,51 +18,50 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_popusta" id="BBF056BE-3CB5-E285-8EFB-83FA2F3CD50E">
+<Column name="naziv" id="01C135B5-3436-9000-6EB5-185E8031E8CB">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-11-01 15:21:51 UTC</createdTime>
+<createdTime>2022-11-01 14:33:02 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uredjaj" id="A210FCEB-AE4F-BEF8-1214-84F864C7D27C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:24:04 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5A6453C6-F77F-36BF-FA16-847EAF51BACE" referredColumn="B75C795A-2DF9-991F-836A-282054DA1F2A"/>
+<colAssociation fkAssociation="0DD18C6E-54BA-AC0C-5625-2DD655F8C493" referredColumn="664F0084-D920-3D52-8E66-76B78A00917C"/>
 </associations>
-</Column>
-<Column name="procenat_popusta" id="2B544966-8E06-A41B-E06C-B94D54EE8711">
-<createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:21:51 UTC</createdTime>
-<ownerDesignName>UI2022_Provajder</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BD2AC85F-E268-5B81-DC70-EDC493C1117A" name="Popust_PK">
+<ind_PK_UK id="AFFE820C-638E-FE8C-71E5-29541713D1EF" name="Paket_kanala_PK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:22:34 UTC</createdTime>
+<createdTime>2022-10-25 14:07:54 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="02E1F943-C68E-2EEA-06E6-D0CA884013E7"/>
+<colUsage columnID="3E73231D-EDD1-DA4D-51E0-763905ED795B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="58777FA2-9B2B-76BA-A054-E353584987BF" name="tip_popusta_FK">
+<ind_PK_UK id="CEE715BD-2107-448E-3FA3-80218BF3437D" name="uredjaj_FKv2">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-11-01 15:21:51 UTC</createdTime>
+<createdTime>2022-11-01 15:24:04 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BBF056BE-3CB5-E285-8EFB-83FA2F3CD50E"/>
+<colUsage columnID="A210FCEB-AE4F-BEF8-1214-84F864C7D27C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

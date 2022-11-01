@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F07F57A7-7292-8E26-FC39-C6D5016AD88C" name="Paket">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:00:31 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paket_id" id="D5D913C6-A406-C45C-0E3A-9776B4624415">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:29:18 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="935DD432-B071-7854-B5F9-94C22C5FD71E">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:07:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9C9EAA1-1E9E-55EA-DAD0-AA14D4A3090E" referredColumn="7E62134B-B938-1E95-0B62-13F5352AE0F6"/>
+</associations>
+</Column>
+<Column name="internet" id="0C92D500-40F1-F6CC-BF9E-F08EAB7A854C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:30:01 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB38AD95-221C-D466-07C0-4C1CFC578872" referredColumn="A19873B2-8EC5-F5EC-5C1D-7BB34686C3E0"/>
+</associations>
+</Column>
+<Column name="fiksni_telefon" id="6A78E6B1-0161-E4FA-80E1-22ADC263E322">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:35:15 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1241DEA1-517C-959A-D97D-21528A739FA4" referredColumn="56753847-EE74-4D99-49BD-BD137820134D"/>
+</associations>
+</Column>
+<Column name="paket_kanala" id="D8F8C28F-FC90-4281-0CF3-E0FFF5E92CB7">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:13:33 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="950F4B7F-EDC0-DD87-2ECD-C6E01BF7D64D" referredColumn="F941C2C9-EAEE-2174-9776-22C18DCB2468"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6B2A82C-4A17-97C8-910B-B8FE687C0D06" name="Sadrzaj_paketa_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-08 16:11:15 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5D913C6-A406-C45C-0E3A-9776B4624415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2F3CF75-8B97-029F-E9DA-6A25DDBBD579" name="internet_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:30:01 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C92D500-40F1-F6CC-BF9E-F08EAB7A854C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FA87890-E389-A8D6-12D7-0A138E1448CE" name="fiksni_telefon_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-16 15:35:15 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A78E6B1-0161-E4FA-80E1-22ADC263E322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62CF7FC9-93DA-2F86-D46F-31A716D43562" name="cena_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:07:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935DD432-B071-7854-B5F9-94C22C5FD71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9D4F56B-9FA2-56AA-3FC1-B563CA81931F" name="kanali_paketa_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:13:33 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8F8C28F-FC90-4281-0CF3-E0FFF5E92CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D988CB91-09CA-48D3-4D78-E6714D9CE4CF" containerWithKeyObject="0EFBB87E-C4F2-3A27-A344-6FA9CC006B29" localFKIndex="CDE3F179-A0B5-DFA5-B5BB-87DC983CCD26" name="cena_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9C9EAA1-1E9E-55EA-DAD0-AA14D4A3090E" containerWithKeyObject="F07F57A7-7292-8E26-FC39-C6D5016AD88C" localFKIndex="62CF7FC9-93DA-2F86-D46F-31A716D43562" name="cena_FK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:20:02 UTC</createdTime>
-<ownerDesignName>UI2022</ownerDesignName>
+<createdTime>2022-11-01 15:07:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
 <referredTableLongName>Cena</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>DB97EC2F-7970-1683-49AA-4E3EB775B4F5</referredTableID>

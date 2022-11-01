@@ -1,28 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB97EC2F-7970-1683-49AA-4E3EB775B4F5" name="Cena">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5508CD5-A7AD-9996-63E3-2E67A7BCAC30" name="Reklamacija">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-16 15:26:16 UTC</createdTime>
+<createdTime>2022-11-01 15:17:06 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cena" id="7E62134B-B938-1E95-0B62-13F5352AE0F6">
+<Column name="reklamacija_id" id="68C468FF-44CF-70A1-7CC6-EF2689F84665">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-16 15:27:18 UTC</createdTime>
+<createdTime>2022-11-01 15:17:54 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="popust" id="31863A04-5D7F-0DAC-7BF8-B8290A887FBC">
+<Column name="tip_reklamacije" id="7010D2E3-7914-21A5-15EA-2DC4DD268A14">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:22:49 UTC</createdTime>
+<createdTime>2022-11-01 15:20:32 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,30 +29,41 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="82AFDEC9-3B7B-F6C4-EF38-A0B92F8491A8" referredColumn="02E1F943-C68E-2EEA-06E6-D0CA884013E7"/>
+<colAssociation fkAssociation="A4960B57-9602-3496-B03C-DCF746FB254C" referredColumn="8A99D2ED-F23B-70CB-C43C-701AB46069C1"/>
 </associations>
+</Column>
+<Column name="status" id="BBB645EA-71BF-C84D-5731-D91C29394EEA">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:17:54 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD932997-235B-FA23-FF05-EA28EE0BBF0A" name="Cena_PK">
+<ind_PK_UK id="BEA3E0B4-1F4A-91E0-10D8-A74A6076B67D" name="Reklamacija_PK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-16 15:27:18 UTC</createdTime>
+<createdTime>2022-11-01 15:17:54 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7E62134B-B938-1E95-0B62-13F5352AE0F6"/>
+<colUsage columnID="68C468FF-44CF-70A1-7CC6-EF2689F84665"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4C19C759-C811-90E0-62FD-D41405C42ED2" name="popust_FK">
+<ind_PK_UK id="B0425E16-1C2A-CA0E-946F-8F355BDEFE8F" name="tip_reklamcije_FK">
 <createdBy>LUKA</createdBy>
-<createdTime>2022-10-17 15:22:49 UTC</createdTime>
+<createdTime>2022-11-01 15:20:32 UTC</createdTime>
 <ownerDesignName>UI2022_Provajder</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="31863A04-5D7F-0DAC-7BF8-B8290A887FBC"/>
+<colUsage columnID="7010D2E3-7914-21A5-15EA-2DC4DD268A14"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

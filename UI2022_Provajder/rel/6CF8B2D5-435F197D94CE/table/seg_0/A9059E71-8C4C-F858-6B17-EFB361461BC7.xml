@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9059E71-8C4C-F858-6B17-EFB361461BC7" name="Tip_reklamcije">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:19:50 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_reklamacije" id="8A99D2ED-F23B-70CB-C43C-701AB46069C1">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:20:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FD11389-33F3-1FFA-9142-FDDC4456B30D" name="Tip_reklamcije_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:20:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A99D2ED-F23B-70CB-C43C-701AB46069C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

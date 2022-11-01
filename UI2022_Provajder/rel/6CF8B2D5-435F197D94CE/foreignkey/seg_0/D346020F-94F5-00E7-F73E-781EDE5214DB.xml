@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D346020F-94F5-00E7-F73E-781EDE5214DB" containerWithKeyObject="80F4A7AA-0BD5-152E-C7E4-5F44E116E45B" localFKIndex="2D6D946D-02BC-F975-F509-50C35606B7BD" name="reklamacija_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:17 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<referredTableLongName>Reklamacija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5508CD5-A7AD-9996-63E3-2E67A7BCAC30</referredTableID>
+<keyObject>BEA3E0B4-1F4A-91E0-10D8-A74A6076B67D</keyObject>
+<referredKeyID>BEA3E0B4-1F4A-91E0-10D8-A74A6076B67D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reklamacija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

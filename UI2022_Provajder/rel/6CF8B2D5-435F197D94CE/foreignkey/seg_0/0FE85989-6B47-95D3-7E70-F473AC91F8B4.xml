@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FE85989-6B47-95D3-7E70-F473AC91F8B4" containerWithKeyObject="BD2808CF-9B68-3FED-5E16-4AD095A1CD7F" localFKIndex="053A81E0-52F0-F392-5F6F-9CE6438FDEE5" name="paket_kanala_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:21 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<referredTableLongName>Paket_kanala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6C8F007-E1A9-B731-B1E3-7DE2CCF4486C</referredTableID>
+<keyObject>AFFE820C-638E-FE8C-71E5-29541713D1EF</keyObject>
+<referredKeyID>AFFE820C-638E-FE8C-71E5-29541713D1EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>paket_kanala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

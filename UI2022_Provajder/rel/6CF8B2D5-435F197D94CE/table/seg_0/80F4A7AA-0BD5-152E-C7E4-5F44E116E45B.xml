@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80F4A7AA-0BD5-152E-C7E4-5F44E116E45B" name="Reklamacije_korisnika">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:17:12 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik" id="1BDEABEC-C5A3-E343-843D-FABB57DF4789">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:06 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29E13BC0-DF84-38E2-93EF-785D8176CE61" referredColumn="BD4A3AC9-1D6B-9F8F-1247-CC81A0C247AC"/>
+</associations>
+</Column>
+<Column name="reklamacija" id="5C89FBB6-1125-32E9-F97F-1289B629BEBC">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:17 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D346020F-94F5-00E7-F73E-781EDE5214DB" referredColumn="68C468FF-44CF-70A1-7CC6-EF2689F84665"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A7BA917-AE0E-D6D0-AAF6-20A6D31F276B" name="Korisnikove_reklamacije_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:39 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDEABEC-C5A3-E343-843D-FABB57DF4789"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D567A92C-0070-1AD9-5190-46C6CC4D16EA" name="korisnik_FKv3">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:06 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDEABEC-C5A3-E343-843D-FABB57DF4789"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D6D946D-02BC-F975-F509-50C35606B7BD" name="reklamacija_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:18:17 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C89FBB6-1125-32E9-F97F-1289B629BEBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

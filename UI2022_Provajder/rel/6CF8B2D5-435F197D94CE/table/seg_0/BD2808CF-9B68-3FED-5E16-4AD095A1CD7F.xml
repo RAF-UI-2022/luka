@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD2808CF-9B68-3FED-5E16-4AD095A1CD7F" name="Kanali_paketa">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:06 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paket_kanala" id="F941C2C9-EAEE-2174-9776-22C18DCB2468">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:21 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE85989-6B47-95D3-7E70-F473AC91F8B4" referredColumn="3E73231D-EDD1-DA4D-51E0-763905ED795B"/>
+</associations>
+</Column>
+<Column name="kanal" id="6F9568F3-4061-72F8-CB6A-584DB95B139C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FD521E8-7D13-9634-A9A7-F0DBDF914818" referredColumn="F07C6B66-261F-09E4-A62F-6D5D5A158F0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A09F48F-A53F-97DC-22BA-3F80D59D69F8" name="Kanali_paketa_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:55 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F941C2C9-EAEE-2174-9776-22C18DCB2468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="053A81E0-52F0-F392-5F6F-9CE6438FDEE5" name="paket_kanala_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:21 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F941C2C9-EAEE-2174-9776-22C18DCB2468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="932E3A91-2A2F-C9AB-8958-58BB087EF10E" name="kanal_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:09:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9568F3-4061-72F8-CB6A-584DB95B139C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
