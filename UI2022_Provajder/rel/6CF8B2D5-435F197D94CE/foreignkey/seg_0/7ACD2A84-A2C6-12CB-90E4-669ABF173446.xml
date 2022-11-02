@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7ACD2A84-A2C6-12CB-90E4-669ABF173446" containerWithKeyObject="A48C3D15-14D7-64CC-A118-C10F6C9CDDE4" localFKIndex="568F9166-E227-79B5-CB81-ABF1360F3C67" name="nacin_uplate_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<referredTableLongName>Nacin_uplate</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A47C99DA-4EDE-D304-0F4F-D0CAA2C69807</referredTableID>
+<keyObject>38C67F8B-0AEE-6BB3-9D7F-237C85A11191</keyObject>
+<referredKeyID>38C67F8B-0AEE-6BB3-9D7F-237C85A11191</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nacin_uplate_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

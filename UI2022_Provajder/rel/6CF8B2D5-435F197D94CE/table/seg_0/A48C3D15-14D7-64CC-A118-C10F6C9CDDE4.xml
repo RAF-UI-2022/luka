@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A48C3D15-14D7-64CC-A118-C10F6C9CDDE4" name="Uplata">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:38:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="uplata_id" id="D9023FB4-176A-22C2-A2B5-1E6CB1F516BD">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:39:25 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="racun" id="8571EAAD-07D0-D951-1030-4DFD75C6AFFC">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:39:42 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="654C17E7-A871-FAF0-BA73-49C8D49AF09C" referredColumn="C1F1F46F-CA57-4D4C-8158-EF42CFA91AE2"/>
+</associations>
+</Column>
+<Column name="dugovanje" id="8C3F0C62-0E42-7990-BED0-603D0193386E">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:40:32 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1424C0BA-EA04-108F-13EB-018BBEC445D4" referredColumn="6FEB8C35-B31E-F05C-1256-3BA1EFA5B30C"/>
+</associations>
+</Column>
+<Column name="nacin_uplate" id="4C9AA21A-634B-A1CF-A84F-02958632480F">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ACD2A84-A2C6-12CB-90E4-669ABF173446" referredColumn="3FB265EE-EB52-FE2D-4CD5-959D6E5BE114"/>
+</associations>
+</Column>
+<Column name="vreme_uplate" id="0558D775-7BEE-A253-78A1-3C826674156F">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:39:25 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F68FFA69-3470-D3F9-DC75-2703C028BF76" name="Uplata_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:39:25 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9023FB4-176A-22C2-A2B5-1E6CB1F516BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF8DE22-E86D-493C-60F0-14EA501E5633" name="racun_FKv2">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:39:42 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8571EAAD-07D0-D951-1030-4DFD75C6AFFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="682930C5-679A-5DB2-95E3-982F8092C3A3" name="dugovanje_FKv2">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:40:32 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C3F0C62-0E42-7990-BED0-603D0193386E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="568F9166-E227-79B5-CB81-ABF1360F3C67" name="nacin_uplate_FK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:30 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C9AA21A-634B-A1CF-A84F-02958632480F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

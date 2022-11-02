@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3800F2D9-92C9-7D6B-5CAD-3D32A9A67441" name="Serija">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:12 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="serija_id" id="99BD1B1B-54D1-B029-1726-33D87B58B1E0">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:29 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="A10564B7-9BCC-AC5D-EFBF-B052079FCEC7">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:41 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zanr" id="2D4E65EE-A6E0-ABB0-FF64-12D70189A172">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:55 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="39374718-F6B6-4CA4-CD81-40D2DF9DD0C9">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:14:20 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="279F964D-3851-ECB4-D556-CB9DAEE5DA61" name="Serija_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:31 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99BD1B1B-54D1-B029-1726-33D87B58B1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

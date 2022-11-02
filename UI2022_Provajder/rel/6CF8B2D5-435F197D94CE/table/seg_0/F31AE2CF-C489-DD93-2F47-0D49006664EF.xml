@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F31AE2CF-C489-DD93-2F47-0D49006664EF" name="Video_klub">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:12:35 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="video_klub_id" id="49FB1349-CB27-B513-C816-3521776C15D7">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:12:55 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA8FB57A-1AA3-C2B2-92C5-B980A34F8B30" name="Video_klub_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:12:55 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49FB1349-CB27-B513-C816-3521776C15D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

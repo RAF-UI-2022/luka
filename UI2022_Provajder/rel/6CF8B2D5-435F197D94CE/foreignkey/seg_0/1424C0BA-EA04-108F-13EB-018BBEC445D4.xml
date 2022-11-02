@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1424C0BA-EA04-108F-13EB-018BBEC445D4" containerWithKeyObject="A48C3D15-14D7-64CC-A118-C10F6C9CDDE4" localFKIndex="682930C5-679A-5DB2-95E3-982F8092C3A3" name="dugovanje_FKv2">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:40:32 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<referredTableLongName>Dugovanje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>766C720B-D500-7AED-822C-6FE35B4619D5</referredTableID>
+<keyObject>A1ABC078-8A1C-14B1-501F-EA2EA8AB2F3A</keyObject>
+<referredKeyID>A1ABC078-8A1C-14B1-501F-EA2EA8AB2F3A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>dugovanje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A47C99DA-4EDE-D304-0F4F-D0CAA2C69807" name="Nacin_uplate">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:00 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nacin_uplate_id" id="3FB265EE-EB52-FE2D-4CD5-959D6E5BE114">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:22 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38C67F8B-0AEE-6BB3-9D7F-237C85A11191" name="Nacin_uplate_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-01 15:42:27 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB265EE-EB52-FE2D-4CD5-959D6E5BE114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

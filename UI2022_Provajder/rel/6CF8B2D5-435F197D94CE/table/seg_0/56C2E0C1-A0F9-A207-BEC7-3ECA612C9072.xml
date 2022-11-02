@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56C2E0C1-A0F9-A207-BEC7-3ECA612C9072" name="Film">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:13:07 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="film_id" id="07775253-494F-7763-C9FD-6986385498D8">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:14:53 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E2243672-D38D-C9AD-44B2-F36C3235C55C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:15:07 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zanr" id="B0C2720A-2922-3CE5-8C90-665633A1003B">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:15:25 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="93395806-0F0D-D124-EFE5-35CE91E3DAEE">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:15:25 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B898DFE3-CD80-2EEE-F773-2D0E45FB949D" name="Film_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-11-02 10:15:31 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07775253-494F-7763-C9FD-6986385498D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74B3E1AB-57E7-4AE4-32A6-D2578A3031A5" name="Kanal">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:05:12 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kanal_id" id="F07C6B66-261F-09E4-A62F-6D5D5A158F0F">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:05:41 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="70E84F3C-C2AD-DBA8-97CD-4A87806FFE65">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:05:41 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_kanala" id="71619D55-7128-0A72-14B3-E4C2A98077E6">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:07:03 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25EEDA37-C34F-2924-555C-3B1FA771E456" name="Kanal_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 14:07:42 UTC</createdTime>
+<ownerDesignName>UI2022_Provajder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F07C6B66-261F-09E4-A62F-6D5D5A158F0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

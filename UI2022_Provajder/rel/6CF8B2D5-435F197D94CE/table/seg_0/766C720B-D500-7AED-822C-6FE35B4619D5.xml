@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="766C720B-D500-7AED-822C-6FE35B4619D5" name="Dugovanje">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 15:03:50 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dugovanje_id" id="6FEB8C35-B31E-F05C-1256-3BA1EFA5B30C">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 15:04:07 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="9D648A5C-E71B-B666-5762-548B1D0E8FBA">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 15:08:53 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1ABC078-8A1C-14B1-501F-EA2EA8AB2F3A" name="Dugovanje_PK">
+<createdBy>LUKA</createdBy>
+<createdTime>2022-10-25 15:04:11 UTC</createdTime>
+<ownerDesignName>UI2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FEB8C35-B31E-F05C-1256-3BA1EFA5B30C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
